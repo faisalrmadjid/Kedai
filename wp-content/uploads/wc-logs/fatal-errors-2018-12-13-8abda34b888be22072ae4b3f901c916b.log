@@ -1,0 +1,8 @@
+2018-12-13T09:49:05+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in F:\xampp\htdocs\Kedai\wp-admin\includes\class-wp-list-table.php on line 16
+
+2018-12-13T09:51:22+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in F:\xampp\htdocs\Kedai\wp-content\themes\tyche\inc\libraries\class-tgm-plugin-activation.php on line 35
+
+2018-12-13T09:51:26+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in F:\xampp\htdocs\Kedai\wp-content\plugins\kirki\modules\webfonts\class-kirki-fonts.php on line 16
+
+2018-12-13T09:51:29+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in F:\xampp\htdocs\Kedai\wp-content\plugins\woo-confirmation-email\xl\includes\class-xl-api.php on line 7
+

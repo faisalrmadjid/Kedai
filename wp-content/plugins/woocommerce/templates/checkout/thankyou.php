@@ -43,12 +43,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 			<ul class="woocommerce-order-overview woocommerce-thankyou-order-details order_details">
 
 				<li class="woocommerce-order-overview__order order">
-					<?php _e( 'Order number:', 'woocommerce' ); ?>
+					<?php _e( 'Nomer Order(Harap diingat):', 'woocommerce' ); ?>
 					<strong><?php echo $order->get_order_number(); ?></strong>
 				</li>
 
 				<li class="woocommerce-order-overview__date date">
-					<?php _e( 'Date:', 'woocommerce' ); ?>
+					<?php _e( 'Tanggal:', 'woocommerce' ); ?>
 					<strong><?php echo wc_format_datetime( $order->get_date_created() ); ?></strong>
 				</li>
 
@@ -66,7 +66,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 				<?php if ( $order->get_payment_method_title() ) : ?>
 					<li class="woocommerce-order-overview__payment-method method">
-						<?php _e( 'Payment method:', 'woocommerce' ); ?>
+						<?php _e( 'Metode Pembayaran:', 'woocommerce' ); ?>
 						<strong><?php echo wp_kses_post( $order->get_payment_method_title() ); ?></strong>
 					</li>
 				<?php endif; ?>

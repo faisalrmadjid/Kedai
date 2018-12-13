@@ -60,7 +60,7 @@ $calculator_text          = '';
 		elseif ( ! $has_calculated_shipping || ! $formatted_destination ) :
 			esc_html_e( 'Enter your address to view shipping options.', 'woocommerce' );
 		elseif ( ! is_cart() ) :
-			echo wp_kses_post( apply_filters( 'woocommerce_no_shipping_available_html', __( 'There are no shipping methods available. Please ensure that your address has been entered correctly, or contact us if you need any help.', 'woocommerce' ) ) );
+			echo wp_kses_post( apply_filters( 'woocommerce_no_shipping_available_html', __( 'Kami saat ini tidak melayani daerah anda, silahkan perbaiki alamat dan kode pos', 'woocommerce' ) ) );
 		else :
 			// Translators: $s shipping destination.
 			echo wp_kses_post( apply_filters( 'woocommerce_cart_no_shipping_available_html', sprintf( esc_html__( 'No shipping options were found for %s.', 'woocommerce' ) . ' ', '<strong>' . esc_html( $formatted_destination ) . '</strong>' ) ) );

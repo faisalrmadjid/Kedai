@@ -87,7 +87,7 @@ function wc_edit_address_i18n( $id, $flip = false ) {
 function wc_get_account_menu_items() {
 	$endpoints = array(
 		'orders'          => get_option( 'woocommerce_myaccount_orders_endpoint', 'orders' ),
-		'downloads'       => get_option( 'woocommerce_myaccount_downloads_endpoint', 'downloads' ),
+		//'downloads'       => get_option( 'woocommerce_myaccount_downloads_endpoint', 'downloads' ),
 		'edit-address'    => get_option( 'woocommerce_myaccount_edit_address_endpoint', 'edit-address' ),
 		'payment-methods' => get_option( 'woocommerce_myaccount_payment_methods_endpoint', 'payment-methods' ),
 		'edit-account'    => get_option( 'woocommerce_myaccount_edit_account_endpoint', 'edit-account' ),
@@ -95,13 +95,13 @@ function wc_get_account_menu_items() {
 	);
 
 	$items = array(
-		'dashboard'       => __( 'Dashboard', 'woocommerce' ),
-		'orders'          => __( 'Orders', 'woocommerce' ),
-		'downloads'       => __( 'Downloads', 'woocommerce' ),
-		'edit-address'    => __( 'Addresses', 'woocommerce' ),
+		//'dashboard'       => __( 'Dashboard', 'woocommerce' ),
+		'orders'          => __( 'Pesanan Saya', 'woocommerce' ),
+		'edit-account'    => __( 'Profil Saya', 'woocommerce' ),
+		'edit-address'    => __( 'Alamat Saya', 'woocommerce' ),
 		'payment-methods' => __( 'Payment methods', 'woocommerce' ),
-		'edit-account'    => __( 'Account details', 'woocommerce' ),
 		'customer-logout' => __( 'Logout', 'woocommerce' ),
+		//'downloads'       => __( 'Downloads', 'woocommerce' ),
 	);
 
 	// Remove missing endpoints.

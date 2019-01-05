@@ -193,6 +193,7 @@ input::-moz-focus-inner {
   padding: 0;
 }
 
+
 input {
   line-height: normal;
 }
@@ -1742,6 +1743,13 @@ ul {
   padding: 0;
   margin: 0;
 }
+#menukhusus ul{
+  list-style: none;
+}
+#menukhusus li{
+  display: inline;
+}
+
 
 .entry-content ul > li:before, .widget ul > li:before {
   content: "\f105";
@@ -3577,7 +3585,16 @@ a:hover, a:active {
 .single-post #secondary {
   margin-top: 0;
 }
-
+.page-template-full-width .content-area {
+    width: 100%;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+ 
+.page-template-full-width .site {
+margin:0px;
+}
 .content-area-1 .widget .widget-title,
 .content-area-2 .widget .widget-title,
 .content-area-3 .widget .widget-title,

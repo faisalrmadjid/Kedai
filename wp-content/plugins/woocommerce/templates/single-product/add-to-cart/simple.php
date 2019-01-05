@@ -19,7 +19,7 @@ defined( 'ABSPATH' ) || exit;
 
 global $product;
 
-if ( ! $product->is_purchasable() ) {
+if ($product->is_purchasable()) {
 	return;
 }
 

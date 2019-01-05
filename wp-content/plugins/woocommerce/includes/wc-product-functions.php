@@ -682,6 +682,7 @@ function wc_get_product_cat_ids( $product_id ) {
 
 	foreach ( $product_cats as $product_cat ) {
 		$product_cats = array_merge( $product_cats, get_ancestors( $product_cat, 'product_cat' ) );
+		echo $product_cat->description;
 	}
 
 	return $product_cats;
@@ -1081,6 +1082,7 @@ function wc_get_price_to_display( $product, $args = array() ) {
  * @return string
  */
 function wc_get_product_category_list( $product_id, $sep = ', ', $before = '', $after = '' ) {
+	
 	return get_the_term_list( $product_id, 'product_cat', $before, $sep, $after );
 }
 

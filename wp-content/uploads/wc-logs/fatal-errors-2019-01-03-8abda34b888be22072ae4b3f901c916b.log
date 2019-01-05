@@ -1,0 +1,18 @@
+2019-01-03T15:00:56+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in F:\xampp\htdocs\Kedai\wp-content\plugins\woocommerce\includes\wc-formatting-functions.php on line 645
+
+2019-01-03T15:00:57+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in F:\xampp\htdocs\Kedai\wp-includes\user.php on line 2593
+
+2019-01-03T15:00:56+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in F:\xampp\htdocs\Kedai\wp-includes\taxonomy.php on line 25
+
+2019-01-03T15:00:57+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in F:\xampp\htdocs\Kedai\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 11
+
+2019-01-03T15:01:09+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in F:\xampp\htdocs\Kedai\wp-includes\class-wp-post-type.php on line 353
+
+2019-01-03T15:07:56+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in F:\xampp\htdocs\Kedai\wp-content\plugins\woocommerce\includes\libraries\geolite2\Reader\Decoder.php on line 5
+
+2019-01-03T15:07:57+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in F:\xampp\htdocs\Kedai\wp-content\plugins\woocommerce\includes\libraries\geolite2\Reader.php on line 47
+
+2019-01-03T15:07:57+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in F:\xampp\htdocs\Kedai\wp-content\plugins\woocommerce\includes\libraries\geolite2\Reader.php on line 47
+
+2019-01-03T15:08:07+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in F:\xampp\htdocs\Kedai\wp-includes\Requests\Transport\cURL.php on line 15
+

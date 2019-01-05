@@ -172,9 +172,11 @@ class WC_Shortcodes {
 			'include'    => $ids,
 			'pad_counts' => true,
 			'child_of'   => $atts['parent'],
+
 		);
 
 		$product_categories = get_terms( 'product_cat', $args );
+		
 
 		if ( '' !== $atts['parent'] ) {
 			$product_categories = wp_list_filter( $product_categories, array(
@@ -201,14 +203,16 @@ class WC_Shortcodes {
 		wc_set_loop_prop( 'is_shortcode', true );
 
 		ob_start();
-
 		if ( $product_categories ) {
 			woocommerce_product_loop_start();
+		
 
 			foreach ( $product_categories as $category ) {
 				wc_get_template( 'content-product_cat.php', array(
 					'category' => $category,
-				) );
+					) 
+				);
+
 			}
 
 			woocommerce_product_loop_end();

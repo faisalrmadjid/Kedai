@@ -30,3 +30,73 @@ Dec 13, 2018 16.51.29: 1544694689 : Maximum execution time of 120 seconds exceed
 Dec 23, 2018 22.21.15: 1545578475 : Maximum execution time of 120 seconds exceeded
 
 Dec 23, 2018 22.23.25: 1545578605 : Maximum execution time of 120 seconds exceeded
+
+Jan 03, 2019 22.00.53: 1546527651 : Maximum execution time of 120 seconds exceeded
+
+Jan 03, 2019 22.01.07: 1546527667 : Maximum execution time of 120 seconds exceeded
+
+Jan 03, 2019 22.01.32: 1546527692 : Maximum execution time of 120 seconds exceeded
+
+Jan 03, 2019 22.07.03: 1546528023 : Maximum execution time of 120 seconds exceeded
+
+Jan 03, 2019 22.07.03: 1546528023 : Maximum execution time of 120 seconds exceeded
+
+Jan 03, 2019 22.07.12: 1546528032 : Maximum execution time of 120 seconds exceeded
+
+Jan 03, 2019 22.07.56: 1546528076 : Maximum execution time of 120 seconds exceeded
+
+Jan 03, 2019 22.07.57: 1546528077 : Maximum execution time of 120 seconds exceeded
+
+Jan 03, 2019 22.07.57: 1546528077 : Maximum execution time of 120 seconds exceeded
+
+Jan 03, 2019 22.08.06: 1546528086 : Maximum execution time of 120 seconds exceeded
+
+Jan 05, 2019 19.46.49: 1546692408 : Uncaught Error: Cannot use object of type WP_Term as array in F:\xampp\htdocs\Kedai\wp-content\themes\tyche\functions.php:29
+Stack trace:
+#0 F:\xampp\htdocs\Kedai\wp-includes\shortcodes.php(319): wpb_catlist_desc('', '', 'wpb_categories')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 F:\xampp\htdocs\Kedai\wp-includes\shortcodes.php(197): preg_replace_callback('/\\[(\\[?)(wpb_ca...', 'do_shortcode_ta...', '\n<h2 style="tex...')
+#3 F:\xampp\htdocs\Kedai\wp-includes\class-wp-hook.php(286): do_shortcode('\n<h2 style="tex...')
+#4 F:\xampp\htdocs\Kedai\wp-includes\plugin.php(203): WP_Hook->apply_filters('\n<h2 style="tex...', Array)
+#5 F:\xampp\htdocs\Kedai\wp-includes\post-template.php(240): apply_filters('the_content', '<!-- wp:heading...')
+#6 F:\xampp\htdocs\Kedai\wp-content\themes\tyche\template-parts\content-page.php(21): the_content()
+#7 F:\xampp\htdocs\Kedai\wp-includes\template.php(690): require('F:\\xampp\\htdocs...')
+#8 F:\xampp\htdocs\Kedai\wp-includes\template.php(647): load_template('F:\\xampp\\ht
+
+Jan 05, 2019 20.42.05: 1546695725 : Uncaught Error: Function name must be a string in F:\xampp\htdocs\Kedai\wp-content\themes\tyche\functions.php:21
+Stack trace:
+#0 F:\xampp\htdocs\Kedai\wp-includes\shortcodes.php(319): wpb_catlist_desc('', '', 'wpb_categories')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 F:\xampp\htdocs\Kedai\wp-includes\shortcodes.php(197): preg_replace_callback('/\\[(\\[?)(wpb_ca...', 'do_shortcode_ta...', '\n<h2 style="tex...')
+#3 F:\xampp\htdocs\Kedai\wp-includes\class-wp-hook.php(286): do_shortcode('\n<h2 style="tex...')
+#4 F:\xampp\htdocs\Kedai\wp-includes\plugin.php(203): WP_Hook->apply_filters('\n<h2 style="tex...', Array)
+#5 F:\xampp\htdocs\Kedai\wp-includes\post-template.php(240): apply_filters('the_content', '<!-- wp:heading...')
+#6 F:\xampp\htdocs\Kedai\wp-content\themes\tyche\template-parts\content-page.php(21): the_content()
+#7 F:\xampp\htdocs\Kedai\wp-includes\template.php(690): require('F:\\xampp\\htdocs...')
+#8 F:\xampp\htdocs\Kedai\wp-includes\template.php(647): load_template('F:\\xampp\\htdocs...', fa
+
+Jan 05, 2019 22.21.02: 1546701662 : Uncaught Error: Class 'WC_Product_Simple' not found in F:\xampp\htdocs\Kedai\wp-content\plugins\woocommerce\includes\class-wc-product-factory.php:46
+Stack trace:
+#0 F:\xampp\htdocs\Kedai\wp-content\plugins\woocommerce\includes\wc-product-functions.php(64): WC_Product_Factory->get_product(9, Array)
+#1 F:\xampp\htdocs\Kedai\wp-content\plugins\woocommerce\includes\class-wc-cart-session.php(101): wc_get_product(9)
+#2 F:\xampp\htdocs\Kedai\wp-includes\class-wp-hook.php(286): WC_Cart_Session->get_cart_from_session('')
+#3 F:\xampp\htdocs\Kedai\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#4 F:\xampp\htdocs\Kedai\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#5 F:\xampp\htdocs\Kedai\wp-settings.php(488): do_action('wp_loaded')
+#6 F:\xampp\htdocs\Kedai\wp-config.php(89): require_once('F:\\xampp\\htdocs...')
+#7 F:\xampp\htdocs\Kedai\wp-load.php(37): require_once('F:\\xampp\\htdocs...')
+#8 F:\xampp\htdocs\Kedai\wp-blog-header.php(13): require_once('F:\\xampp\\htdocs...')
+#9 F:\xampp\h
+
+Jan 05, 2019 22.22.16: 1546701736 : Uncaught Error: Class 'WC_Product_Simple' not found in F:\xampp\htdocs\Kedai\wp-content\plugins\woocommerce\includes\class-wc-product-factory.php:46
+Stack trace:
+#0 F:\xampp\htdocs\Kedai\wp-content\plugins\woocommerce\includes\wc-product-functions.php(64): WC_Product_Factory->get_product(9, Array)
+#1 F:\xampp\htdocs\Kedai\wp-content\plugins\woocommerce\includes\class-wc-cart-session.php(101): wc_get_product(9)
+#2 F:\xampp\htdocs\Kedai\wp-includes\class-wp-hook.php(286): WC_Cart_Session->get_cart_from_session('')
+#3 F:\xampp\htdocs\Kedai\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#4 F:\xampp\htdocs\Kedai\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#5 F:\xampp\htdocs\Kedai\wp-settings.php(488): do_action('wp_loaded')
+#6 F:\xampp\htdocs\Kedai\wp-config.php(89): require_once('F:\\xampp\\htdocs...')
+#7 F:\xampp\htdocs\Kedai\wp-load.php(37): require_once('F:\\xampp\\htdocs...')
+#8 F:\xampp\htdocs\Kedai\wp-blog-header.php(13): require_once('F:\\xampp\\htdocs...')
+#9 F:\xampp\h

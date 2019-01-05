@@ -1,0 +1,98 @@
+2019-01-05T12:03:34+00:00 CRITICAL syntax error, unexpected '$product_category' (T_VARIABLE), expecting ',' or ';' in F:\xampp\htdocs\Kedai\wp-content\themes\tyche\functions.php on line 33
+
+2019-01-05T12:03:55+00:00 CRITICAL syntax error, unexpected '$product_category' (T_VARIABLE), expecting ',' or ';' in F:\xampp\htdocs\Kedai\wp-content\themes\tyche\functions.php on line 33
+
+2019-01-05T12:03:55+00:00 CRITICAL syntax error, unexpected '$product_category' (T_VARIABLE), expecting ',' or ';' in F:\xampp\htdocs\Kedai\wp-content\themes\tyche\functions.php on line 33
+
+2019-01-05T12:04:17+00:00 CRITICAL syntax error, unexpected '$product_category' (T_VARIABLE), expecting ',' or ';' in F:\xampp\htdocs\Kedai\wp-content\themes\tyche\functions.php on line 33
+
+2019-01-05T12:04:25+00:00 CRITICAL syntax error, unexpected '$product_category' (T_VARIABLE), expecting ',' or ';' in F:\xampp\htdocs\Kedai\wp-content\themes\tyche\functions.php on line 33
+
+2019-01-05T12:04:29+00:00 CRITICAL syntax error, unexpected '$product_category' (T_VARIABLE), expecting ',' or ';' in F:\xampp\htdocs\Kedai\wp-content\themes\tyche\functions.php on line 33
+
+2019-01-05T12:04:36+00:00 CRITICAL syntax error, unexpected '.' in F:\xampp\htdocs\Kedai\wp-content\themes\tyche\functions.php on line 33
+
+2019-01-05T12:04:47+00:00 CRITICAL syntax error, unexpected '.' in F:\xampp\htdocs\Kedai\wp-content\themes\tyche\functions.php on line 33
+
+2019-01-05T12:14:55+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in F:\xampp\htdocs\Kedai\wp-content\themes\tyche\functions.php on line 56
+
+2019-01-05T12:15:07+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in F:\xampp\htdocs\Kedai\wp-content\themes\tyche\functions.php on line 56
+
+2019-01-05T12:15:19+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in F:\xampp\htdocs\Kedai\wp-content\themes\tyche\functions.php on line 56
+
+2019-01-05T12:15:31+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in F:\xampp\htdocs\Kedai\wp-content\themes\tyche\functions.php on line 56
+
+2019-01-05T12:15:35+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in F:\xampp\htdocs\Kedai\wp-content\themes\tyche\functions.php on line 56
+
+2019-01-05T12:15:44+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in F:\xampp\htdocs\Kedai\wp-content\themes\tyche\functions.php on line 56
+
+2019-01-05T12:15:46+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in F:\xampp\htdocs\Kedai\wp-content\themes\tyche\functions.php on line 56
+
+2019-01-05T12:15:55+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in F:\xampp\htdocs\Kedai\wp-content\themes\tyche\functions.php on line 56
+
+2019-01-05T12:16:09+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in F:\xampp\htdocs\Kedai\wp-content\themes\tyche\functions.php on line 56
+
+2019-01-05T12:24:08+00:00 CRITICAL syntax error, unexpected '}', expecting ',' or ';' in F:\xampp\htdocs\Kedai\wp-content\themes\tyche\functions.php on line 58
+
+2019-01-05T12:45:46+00:00 CRITICAL syntax error, unexpected ';' in F:\xampp\htdocs\Kedai\wp-content\themes\tyche\functions.php on line 29
+
+2019-01-05T12:46:15+00:00 CRITICAL syntax error, unexpected ';' in F:\xampp\htdocs\Kedai\wp-content\themes\tyche\functions.php on line 29
+
+2019-01-05T12:46:50+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Term as array in F:\xampp\htdocs\Kedai\wp-content\themes\tyche\functions.php:29
+Stack trace:
+#0 F:\xampp\htdocs\Kedai\wp-includes\shortcodes.php(319): wpb_catlist_desc('', '', 'wpb_categories')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 F:\xampp\htdocs\Kedai\wp-includes\shortcodes.php(197): preg_replace_callback('/\\[(\\[?)(wpb_ca...', 'do_shortcode_ta...', '\n<h2 style="tex...')
+#3 F:\xampp\htdocs\Kedai\wp-includes\class-wp-hook.php(286): do_shortcode('\n<h2 style="tex...')
+#4 F:\xampp\htdocs\Kedai\wp-includes\plugin.php(203): WP_Hook->apply_filters('\n<h2 style="tex...', Array)
+#5 F:\xampp\htdocs\Kedai\wp-includes\post-template.php(240): apply_filters('the_content', '<!-- wp:heading...')
+#6 F:\xampp\htdocs\Kedai\wp-content\themes\tyche\template-parts\content-page.php(21): the_content()
+#7 F:\xampp\htdocs\Kedai\wp-includes\template.php(690): require('F:\\xampp\\htdocs...')
+#8 F:\xampp\htdocs\Kedai\wp-includes\template.php(647): load_template('F:\\xampp\\ht in F:\xampp\htdocs\Kedai\wp-content\themes\tyche\functions.php on line 29
+
+2019-01-05T12:52:28+00:00 CRITICAL syntax error, unexpected ',', expecting ')' in F:\xampp\htdocs\Kedai\wp-content\themes\tyche\functions.php on line 21
+
+2019-01-05T12:52:34+00:00 CRITICAL syntax error, unexpected ',', expecting ')' in F:\xampp\htdocs\Kedai\wp-content\themes\tyche\functions.php on line 21
+
+2019-01-05T13:16:41+00:00 CRITICAL syntax error, unexpected '$i' (T_VARIABLE), expecting ',' or ';' in F:\xampp\htdocs\Kedai\wp-content\themes\tyche\functions.php on line 48
+
+2019-01-05T13:42:06+00:00 CRITICAL Uncaught Error: Function name must be a string in F:\xampp\htdocs\Kedai\wp-content\themes\tyche\functions.php:21
+Stack trace:
+#0 F:\xampp\htdocs\Kedai\wp-includes\shortcodes.php(319): wpb_catlist_desc('', '', 'wpb_categories')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 F:\xampp\htdocs\Kedai\wp-includes\shortcodes.php(197): preg_replace_callback('/\\[(\\[?)(wpb_ca...', 'do_shortcode_ta...', '\n<h2 style="tex...')
+#3 F:\xampp\htdocs\Kedai\wp-includes\class-wp-hook.php(286): do_shortcode('\n<h2 style="tex...')
+#4 F:\xampp\htdocs\Kedai\wp-includes\plugin.php(203): WP_Hook->apply_filters('\n<h2 style="tex...', Array)
+#5 F:\xampp\htdocs\Kedai\wp-includes\post-template.php(240): apply_filters('the_content', '<!-- wp:heading...')
+#6 F:\xampp\htdocs\Kedai\wp-content\themes\tyche\template-parts\content-page.php(21): the_content()
+#7 F:\xampp\htdocs\Kedai\wp-includes\template.php(690): require('F:\\xampp\\htdocs...')
+#8 F:\xampp\htdocs\Kedai\wp-includes\template.php(647): load_template('F:\\xampp\\htdocs...', fa in F:\xampp\htdocs\Kedai\wp-content\themes\tyche\functions.php on line 21
+
+2019-01-05T15:21:02+00:00 CRITICAL Uncaught Error: Class 'WC_Product_Simple' not found in F:\xampp\htdocs\Kedai\wp-content\plugins\woocommerce\includes\class-wc-product-factory.php:46
+Stack trace:
+#0 F:\xampp\htdocs\Kedai\wp-content\plugins\woocommerce\includes\wc-product-functions.php(64): WC_Product_Factory->get_product(9, Array)
+#1 F:\xampp\htdocs\Kedai\wp-content\plugins\woocommerce\includes\class-wc-cart-session.php(101): wc_get_product(9)
+#2 F:\xampp\htdocs\Kedai\wp-includes\class-wp-hook.php(286): WC_Cart_Session->get_cart_from_session('')
+#3 F:\xampp\htdocs\Kedai\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#4 F:\xampp\htdocs\Kedai\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#5 F:\xampp\htdocs\Kedai\wp-settings.php(488): do_action('wp_loaded')
+#6 F:\xampp\htdocs\Kedai\wp-config.php(89): require_once('F:\\xampp\\htdocs...')
+#7 F:\xampp\htdocs\Kedai\wp-load.php(37): require_once('F:\\xampp\\htdocs...')
+#8 F:\xampp\htdocs\Kedai\wp-blog-header.php(13): require_once('F:\\xampp\\htdocs...')
+#9 F:\xampp\h in F:\xampp\htdocs\Kedai\wp-content\plugins\woocommerce\includes\class-wc-product-factory.php on line 46
+
+2019-01-05T15:21:59+00:00 CRITICAL syntax error, unexpected end of file, expecting function (T_FUNCTION) in F:\xampp\htdocs\Kedai\wp-content\plugins\woocommerce\includes\class-wc-product-simple.php on line 71
+
+2019-01-05T15:22:16+00:00 CRITICAL Uncaught Error: Class 'WC_Product_Simple' not found in F:\xampp\htdocs\Kedai\wp-content\plugins\woocommerce\includes\class-wc-product-factory.php:46
+Stack trace:
+#0 F:\xampp\htdocs\Kedai\wp-content\plugins\woocommerce\includes\wc-product-functions.php(64): WC_Product_Factory->get_product(9, Array)
+#1 F:\xampp\htdocs\Kedai\wp-content\plugins\woocommerce\includes\class-wc-cart-session.php(101): wc_get_product(9)
+#2 F:\xampp\htdocs\Kedai\wp-includes\class-wp-hook.php(286): WC_Cart_Session->get_cart_from_session('')
+#3 F:\xampp\htdocs\Kedai\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#4 F:\xampp\htdocs\Kedai\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#5 F:\xampp\htdocs\Kedai\wp-settings.php(488): do_action('wp_loaded')
+#6 F:\xampp\htdocs\Kedai\wp-config.php(89): require_once('F:\\xampp\\htdocs...')
+#7 F:\xampp\htdocs\Kedai\wp-load.php(37): require_once('F:\\xampp\\htdocs...')
+#8 F:\xampp\htdocs\Kedai\wp-blog-header.php(13): require_once('F:\\xampp\\htdocs...')
+#9 F:\xampp\h in F:\xampp\htdocs\Kedai\wp-content\plugins\woocommerce\includes\class-wc-product-factory.php on line 46
+

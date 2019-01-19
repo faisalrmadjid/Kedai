@@ -1,0 +1,6 @@
+2019-01-19T12:56:48+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in F:\xampp\htdocs\Kedai\wp-admin\includes\class-walker-category-checklist.php on line 19
+
+2019-01-19T12:56:48+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in F:\xampp\htdocs\Kedai\wp-content\plugins\smart-manager-for-wp-e-commerce\new\smart-manager.php on line 3
+
+2019-01-19T13:42:02+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in F:\xampp\htdocs\Kedai\wp-content\plugins\kirki\field\class-kirki-field-text.php on line 15
+

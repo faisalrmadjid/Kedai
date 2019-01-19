@@ -276,3 +276,7 @@ echo '<section class="panel panel-default">';
 }
 }
 add_shortcode('wpb_categories', 'wpb_catlist_desc');
+
+custom woo tabbed: F:\xampp\htdocs\Kedai\wp-content\plugins\woo-tabbed-category-product-listing\woo-tabbed-category-product-listing.php Line 347
+'include'    => array(18,19,20), //array id category
+

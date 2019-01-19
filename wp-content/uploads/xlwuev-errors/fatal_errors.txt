@@ -100,3 +100,11 @@ Stack trace:
 #7 F:\xampp\htdocs\Kedai\wp-load.php(37): require_once('F:\\xampp\\htdocs...')
 #8 F:\xampp\htdocs\Kedai\wp-blog-header.php(13): require_once('F:\\xampp\\htdocs...')
 #9 F:\xampp\h
+
+Jan 19, 2019 19.56.48: 1547902608 : Maximum execution time of 120 seconds exceeded
+
+Jan 19, 2019 20.41.59: 1547905317 : Maximum execution time of 120 seconds exceeded
+
+Jan 19, 2019 20.43.47: 1547905427 : Maximum execution time of 120 seconds exceeded
+
+Jan 19, 2019 20.43.50: 1547905430 : Maximum execution time of 120 seconds exceeded

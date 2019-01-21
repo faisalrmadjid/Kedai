@@ -108,3 +108,5 @@ Jan 19, 2019 20.41.59: 1547905317 : Maximum execution time of 120 seconds exceed
 Jan 19, 2019 20.43.47: 1547905427 : Maximum execution time of 120 seconds exceeded
 
 Jan 19, 2019 20.43.50: 1547905430 : Maximum execution time of 120 seconds exceeded
+
+Jan 21, 2019 16.00.25: 1548061225 : Out of memory (allocated 8388608) (tried to allocate 32768 bytes)

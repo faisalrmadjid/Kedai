@@ -352,13 +352,22 @@ function wtcpl_load_products()
                         <?php
                         $i = 0;
                         foreach ($product_categories as $cat) {
-                            ?>
+                        // ambilthumbnail
+        $thumbnail_id = get_woocommerce_term_meta( $cat->term_id, 'thumbnail_id', true );
+        // ambil thumbnl
+        $thumbnail_url = wp_get_attachment_thumb_url( $thumbnail_id );    ?>
                             <li><a id="<?php echo $cat->slug; ?>"
                                    class="product-<?php echo $cat->slug; ?><?php if ($i == 0) {
                                        echo " active";
                                    } ?>"
+                                                    
+                             
                                    data-name="<?php echo $cat->name; ?>"
-                                   href="#"><?php echo substr($cat->name, 0, get_option('max_char_per_cat')); ?></a>
+                                   href="#">
+                            <img src=<?= $thumbnail_url; ?> />
+                            <br>
+                            
+                            <?php echo substr($cat->name, 0, get_option('max_char_per_cat')); ?></a>
                             </li>
                             <?php
                             $i++;
@@ -376,8 +385,12 @@ function wtcpl_load_products()
                     <div class="each_cat<?php if ($i == 0) {
                         echo " active";
                     } ?>" id="product-<?php echo $cat->slug; ?>">
+                    <center>   
+                        <p><?=$cat->description;?></p>  
+                    </center>
+                  
                         <?php
-                        echo do_shortcode('[product_category category="' . $cat->slug . '" per_page=' . $product_number . '  columns=' . $column_number . ' orderby="title" order="' . get_option('order_product_by') . '"]');
+                        echo do_shortcode('[product_category category="' . $cat->slug . '" per_page=' . $product_number . '  columns=' . $column_number . ' orderby="price" order="' . get_option('order_product_by') . '"]');
                         ?>
                     </div>
                     <?php $i++;

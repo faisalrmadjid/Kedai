@@ -1,0 +1,4 @@
+2019-01-21T09:00:26+00:00 CRITICAL Out of memory (allocated 8388608) (tried to allocate 32768 bytes) in F:\xampp\htdocs\Kedai\wp-admin\includes\ajax-actions.php on line 750
+
+2019-01-21T09:41:34+00:00 CRITICAL syntax error, unexpected 'global' (T_GLOBAL) in F:\xampp\htdocs\Kedai\wp-content\themes\tyche\functions.php on line 95
+

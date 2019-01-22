@@ -1,0 +1,28 @@
+2019-01-22T09:45:21+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in F:\xampp\htdocs\Kedai\wp-includes\wp-db.php on line 1924
+
+2019-01-22T09:45:21+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in F:\xampp\htdocs\Kedai\wp-content\plugins\kirki\controls\php\class-kirki-control-dashicons.php on line 13
+
+2019-01-22T09:45:21+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in F:\xampp\htdocs\Kedai\wp-content\plugins\kirki\controls\php\class-kirki-control-background.php on line 18
+
+2019-01-22T09:45:21+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in F:\xampp\htdocs\Kedai\wp-content\plugins\kirki\controls\php\class-kirki-control-color-palette.php on line 13
+
+2019-01-22T09:45:22+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in F:\xampp\htdocs\Kedai\wp-content\plugins\kirki\modules\webfonts\class-kirki-modules-webfonts-async.php on line 16
+
+2019-01-22T09:45:22+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in F:\xampp\htdocs\Kedai\wp-includes\formatting.php on line 274
+
+2019-01-22T09:45:22+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in F:\xampp\htdocs\Kedai\wp-includes\meta.php on line 465
+
+2019-01-22T09:45:22+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in F:\xampp\htdocs\Kedai\wp-includes\l10n.php on line 249
+
+2019-01-22T09:45:26+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in F:\xampp\htdocs\Kedai\wp-load.php on line 92
+
+2019-01-22T09:45:29+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in F:\xampp\htdocs\Kedai\wp-admin\includes\media.php on line 16
+
+2019-01-22T09:45:29+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in F:\xampp\htdocs\Kedai\wp-admin\includes\misc.php on line 16
+
+2019-01-22T09:45:29+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in F:\xampp\htdocs\Kedai\wp-includes\wp-db.php on line 1924
+
+2019-01-22T09:45:31+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in F:\xampp\htdocs\Kedai\wp-includes\meta.php on line 148
+
+2019-01-22T09:45:41+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in F:\xampp\htdocs\Kedai\wp-admin\includes\deprecated.php on line 20
+

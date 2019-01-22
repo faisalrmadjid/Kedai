@@ -59,7 +59,7 @@ $i=5;
         $thumbnail_url = wp_get_attachment_thumb_url( $thumbnail_id );
        	echo 
          '
-                         <div class="col-sm-4" style="height:400px; text-align:center; background-color: #f2f2f2;" >
+                         <div class="col-sm-4" style="height:auto; text-align:center; background-color: #f2f2f2;" >
                            
                             
                              <div class="row" > 
@@ -75,7 +75,7 @@ $i=5;
                              </div>
                              
                              <div class="row" > 
-                               <a id="buttonsaya"href="' . get_term_link( $product_category ) . '">Lihat Menu</a>'.$i.'
+                               <a id="buttonsaya"href="' . get_term_link( $product_category ) . '">Lihat Menu</a>
                              </div>
 				            
 				           
@@ -90,4 +90,5 @@ $i=5;
     echo '</div>';
 }
 }
-add_shortcode('wpb_categories', 'wpb_catlist_desc');
+add_shortcode('wpb_categories', 'wpb_catlist_desc');//shortcode untuk memanggil kategori
+add_filter( 'widget_text', 'do_shortcode' );//agar shortcode bisa masuk widget
